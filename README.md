@@ -1,6 +1,6 @@
 # Web site url
 
-## 1. csv read & get statistics : website created by shiny packages in R 
+## 1. csv reader & get statistics : website created by shiny packages in R 
 <https://paka.shinyapps.io/csvreader/>     
 (contained VGG16 transfer-trained model)    
 <img src="https://github.com/LemonChocolate/Weblink/blob/main/sample/Sample1.png?raw=true" width="800px">
