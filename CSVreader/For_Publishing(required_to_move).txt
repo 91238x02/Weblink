@@ -1,0 +1,22 @@
+#Before test, execute server.R and ui.R.
+#Code below is just for test, not publishing.
+setwd("Your path")
+getwd()
+library(shiny)
+shinyApp(ui = ui, server = server)
+#deployApp()
+
+
+
+
+
+##Code below is for web publinshing
+setwd("C:\\Users\\icecr\\OneDrive\\R\\CSVreader")
+getwd()
+library(rsconnect)
+
+rsconnect::setAccountInfo(name='****',
+                          token='INSERT YOUR TOKEN',
+                          secret='INSERT YOUR PW')
+
+rsconnect::deployApp('Your path',appName = "****")

@@ -1,0 +1,4 @@
+boston.csv : Kaggle open dataset
+titanic.csv : Kaggle open dataset
+emp3.csv : Practice dataset(opendataset)
+dept.csv : Practice dataset(opendataset)
